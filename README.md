@@ -1,8 +1,7 @@
-Implementing Neural Network using a dataset from https://archive.ics.uci.edu/dataset/2/adult
+Implementing a neural network using the Adult dataset from UCI Machine Learning Repository.
 
-It's a classification problem
+It's a classification problem.
 
-Basic MLP (3 layers) i used relu in the hidden layers and sigmoid in the output layer
+Basic MLP (3 layers): I used ReLU in the hidden layers and a sigmoid activation in the output layer.
 
-Currently i'm studying why after the 2000 epochs the improve isn't so good
-
+Currently, I'm studying why the improvement slows down after 2000 epochs
