@@ -18,14 +18,14 @@ The model's improvement slows down after **2000 epochs**, and I'm currently inve
 
 ## **Installation & Usage**  
 ### **Dependencies**  
-Ensure you have Python and the following libraries installed:  
+Ensure you have Python and the requirements installed:  
 ```bash
-pip install torch pandas numpy scikit-learn matplotlib ucimlrepo
+pip install -r requirements.txt
 ```
 ### **Running the Model**  
 Clone the repository and execute the script:  
 ```bash
-python train.py
+python adult.py
 ```
 ### **Example Prediction**  
 The script includes a function to test the model on a sample instance:  
