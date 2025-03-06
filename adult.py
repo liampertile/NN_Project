@@ -67,7 +67,7 @@ t_y_test = torch.from_numpy(y_test).float().to("cpu")
 
 class Network(nn.Module):
     def __init__(self, n_entries):
-        super(Network, self).__init__()
+        super(Network, self).__init__() #super().__init__() --> fancy way
         self.linear1 = nn.Linear(n_entries, 64)  
         self.linear2 = nn.Linear(64, 32)
         self.linear3 = nn.Linear(32, 1)
@@ -84,8 +84,6 @@ class Network(nn.Module):
 
 
 #hyperparameters
-
-print(X_train.shape[0] == y_train.shape[0])
 
 lr = 1e-3
 epochs = 5000
