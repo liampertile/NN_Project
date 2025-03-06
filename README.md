@@ -14,7 +14,7 @@ This project implements a **multi-layer perceptron (MLP)** to perform binary cla
 - **Inference**: Provides a function to make predictions on test samples.  
 
 ## **Current Challenge**  
-The model's improvement slows down after **2000 epochs**, and I am currently investigating why. Suggestions and insights are welcome!  
+The model's improvement slows down after **2000 epochs**, and I'm currently investigating why. Suggestions and insights are welcome!  
 
 ## **Installation & Usage**  
 ### **Dependencies**  
@@ -37,8 +37,4 @@ predict_example(model, t_X_test, t_y_test, index=5)
 The model's accuracy and loss trends are plotted during training. Example visualization:  
 
 ![Loss and Accuracy Graph](https://github.com/user-attachments/assets/12324df7-0bd4-4cb2-b69c-2ad91dd352b5)
-
-
-## **Contributions & Feedback**  
-Contributions, discussions, and improvements are highly encouraged. Feel free to open an issue or a pull request! 🚀  
 
